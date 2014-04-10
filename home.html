@@ -1,0 +1,7 @@
+<h1>Poll Application</h1>
+
+<ul>
+    {% for p in polls %}
+        <li><a href="{{p.title}}">{{p.acell('A1').value}}</a></li>
+    {% endfor %}
+</ul>
